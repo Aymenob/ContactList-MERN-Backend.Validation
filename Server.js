@@ -10,5 +10,6 @@ app.use(cors({origin:"http://localhost:3000"}))
 app.set('json spaces', 2)
 app.use(router)
 app.listen(PORT,()=>{console.log("server is running")})
+
 mongoose.connect(URL)
 
